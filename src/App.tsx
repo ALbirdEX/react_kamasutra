@@ -1,13 +1,20 @@
 import React from 'react';
 import './App.css';
-import Header from './Header'
+import Header from "./Header";
 import Technologies from "./Technologies";
+import Footer from "./Footer";
+
+
+
+/*import Header from './Header';
+import Technologies from "./Technologies";*/
 
 const App = () => {
     return (
         <div>
             <Header />
             <Technologies />
+            <Footer />
         </div>
     );
 }
